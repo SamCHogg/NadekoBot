@@ -5,7 +5,7 @@
         public int GuildConfigId { get; set; }
         public GuildConfig GuildConfig { get; set; }
 
-        public bool SongAutoDelete { get; set; } = false;
+        public bool SongAutoDelete { get; set; } = true;
         public ulong? MusicChannelId { get; set; } = null;
     }
 }
